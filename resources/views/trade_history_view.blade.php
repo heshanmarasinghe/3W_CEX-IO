@@ -36,7 +36,7 @@
         $('#history-table').DataTable({
             processing: true,
             serverSide: true,
-            ajax: 'http://127.0.0.1:8000/trade_history_view/gettable',
+            ajax: 'http://localhost:8000/trade_history_view/gettable',
             columns: [{data: 'id', name: 'id'}, {data: 'type', name: 'type'}, {
                 data: 'date',
                 name: 'date'

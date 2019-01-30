@@ -34,7 +34,7 @@
         $('#financial-table').DataTable({
             processing: true,
             serverSide: true,
-            ajax: 'http://127.0.0.1:8000/last_price_view/gettable',
+            ajax: 'http://localhost:8000/last_price_view/gettable',
             columns: [{data: 'id', name: 'id'}, {data: 'last_price', name: 'last_price'}, {
                 data: 'symbol1',
                 name: 'symbol1'
